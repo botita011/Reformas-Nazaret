@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reformas Nazaret | Fontanería, Limpieza, Vaciado y Reformas en Madrid 24h</title>
-    <meta name="description" content="Servicios profesionales de Fontanería, Limpieza de Pisos, Vaciado de Inmuebles, Albañilería, Pintura y Reformas Integrales en Atocha, Embajadores y todo Madrid. Atención 24 Horas.">
+    <title>Reformas Nazaret | Fontanería, Reformas, Limpieza y Vaciamiento de Pisos en Madrid 24h</title>
+    <meta name="description" content="Servicios profesionales de Fontanería, Reformas Integrales, Limpieza de Pisos, Vaciamiento de Inmuebles, Albañilería y Pintura en Atocha, Embajadores y todo Madrid. Atención 24 Horas.">
+    <!-- Canonical & Robots SEO -->
+    <link rel="canonical" href="https://reformasnazaret.es/" />
+    <meta name="robots" content="index, follow" />
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@latest" defer></script>
     <script>
         tailwind.config = {
             theme: {
@@ -65,7 +68,7 @@
             <!-- Logo Brand -->
             <a href="#" class="flex items-center gap-3 group">
                 <div class="relative flex items-center justify-center w-12 h-12 rounded-full border-2 border-brand-blue bg-white shadow-sm overflow-hidden p-1 group-hover:scale-105 transition-transform">
-                    <svg viewBox="0 0 100 100" class="w-full h-full text-brand-navy">
+                    <svg viewBox="0 0 100 100" class="w-full h-full text-brand-navy" role="img" aria-label="Logo Reformas Nazaret - Fontanería, Reformas y Servicios en Madrid">
                         <circle cx="50" cy="50" r="46" fill="none" stroke="#005B94" stroke-width="3"/>
                         <path d="M 35 32 Q 50 15 65 32" stroke="#005B94" stroke-width="3" fill="none"/>
                         <!-- Faucet -->
@@ -94,7 +97,7 @@
 
             <!-- Action Buttons -->
             <div class="flex items-center gap-2">
-                <a href="https://wa.me/34643390236?text=Hola,%20necesito%20un%20presupuesto%20de%20reformas/limpieza/vaciado" target="_blank" class="hidden sm:inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm px-4 py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                <a href="https://wa.me/34643390236?text=Hola,%20necesito%20un%20presupuesto%20de%20fontaneria/reformas/limpieza/vaciamiento" target="_blank" class="hidden sm:inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm px-4 py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
                     <i data-lucide="message-circle" class="w-4 h-4"></i>
                     <span>WhatsApp</span>
                 </a>
@@ -117,11 +120,11 @@
                 </div>
 
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight tracking-tight">
-                    Fontanería, Limpieza, Vaciado y Reformas <span class="text-brand-accent">en Madrid</span>
+                    Fontanería, Reformas, Limpieza y Vaciamiento de Pisos <span class="text-brand-accent">en Madrid</span>
                 </h1>
 
                 <p class="text-gray-300 text-base sm:text-lg max-w-xl mx-auto md:mx-0">
-                    Atención rápida 24h. Servicios integrales de fontanería, vaciado de inmuebles, limpieza profunda de pisos, albañilería, pintura y reformas.
+                    Atención rápida 24h. Servicios integrales de fontanería, reformas, vaciamiento de inmuebles, limpieza profunda de pisos, albañilería y pintura.
                 </p>
 
                 <!-- Value Props -->
@@ -129,7 +132,7 @@
                     <div class="bg-white/5 border border-white/10 p-3 rounded-xl backdrop-blur-sm">
                         <i data-lucide="clock-24" class="w-6 h-6 text-brand-accent mb-1"></i>
                         <p class="font-bold text-sm text-white">Servicio 24/7</p>
-                        <p class="text-xs text-gray-400">Atención rápida en Madrid</p>
+                        <p class="text-xs text-gray-400">Respuesta en &lt; 30 min</p>
                     </div>
                     <div class="bg-white/5 border border-white/10 p-3 rounded-xl backdrop-blur-sm">
                         <i data-lucide="file-text" class="w-6 h-6 text-brand-accent mb-1"></i>
@@ -177,9 +180,9 @@
                             <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Tipo de Servicio</label>
                             <select id="form-service" required class="w-full px-3.5 py-2.5 text-sm bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:outline-none">
                                 <option value="Fontanería / Fuga / Urgencia">Fontanería (Fugas, Desatascos, Termos)</option>
-                                <option value="Limpieza de Pisos e Inmuebles">Limpieza de Pisos (Fin de obra, alquiler)</option>
-                                <option value="Vaciado de Pisos">Vaciado de Pisos y Retirada de Muebles</option>
                                 <option value="Reforma Integral o Parcial">Reformas (Baños, Cocinas, Pisos)</option>
+                                <option value="Limpieza de Pisos e Inmuebles">Limpieza de Pisos (Fin de obra, alquiler)</option>
+                                <option value="Vaciamiento de Pisos">Vaciamiento de Pisos y Retirada de Muebles</option>
                                 <option value="Albañilería y Alicatado">Albañilería y Alicatado</option>
                                 <option value="Pintura en General">Pintura de Viviendas y Locales</option>
                                 <option value="Otro Servicio">Otro trabajo de hogar</option>
@@ -230,7 +233,21 @@
                     </ul>
                 </div>
 
-                <!-- 2. LIMPIEZA DE PISOS -->
+                <!-- 2. REFORMAS INTEGRALES -->
+                <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="home" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-navy mb-2">Reformas Integrales</h3>
+                    <ul class="text-xs text-gray-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Reforma completa de baños y cocinas</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Rehabilitación de viviendas y locales</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Coordinación directa sin intermediarios</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Presupuesto detallado cerrado</li>
+                    </ul>
+                </div>
+
+                <!-- 3. LIMPIEZA DE PISOS -->
                 <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
                     <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
                         <i data-lucide="sparkles" class="w-6 h-6"></i>
@@ -244,31 +261,17 @@
                     </ul>
                 </div>
 
-                <!-- 3. VACIADO DE PISOS -->
+                <!-- 4. VACIAMIENTO DE PISOS -->
                 <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
                     <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
                         <i data-lucide="trash-2" class="w-6 h-6"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-brand-navy mb-2">Vaciado de Pisos</h3>
+                    <h3 class="text-lg font-bold text-brand-navy mb-2">Vaciamiento de Pisos</h3>
                     <ul class="text-xs text-gray-600 space-y-2 mb-4">
                         <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Retirada de muebles, enseres y trastos viejos</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Vaciado completo de pisos, trastos y locales</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Vaciamiento completo de pisos, trastos y locales</li>
                         <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Retirada de escombros de reformas</li>
                         <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Traslado a punto limpio autorizado</li>
-                    </ul>
-                </div>
-
-                <!-- 4. REFORMAS INTEGRALES -->
-                <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
-                    <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
-                        <i data-lucide="home" class="w-6 h-6"></i>
-                    </div>
-                    <h3 class="text-lg font-bold text-brand-navy mb-2">Reformas Integrales</h3>
-                    <ul class="text-xs text-gray-600 space-y-2 mb-4">
-                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Reforma completa de baños y cocinas</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Rehabilitación de viviendas y locales</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Coordinación directa sin intermediarios</li>
-                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Presupuesto detallado cerrado</li>
                     </ul>
                 </div>
 
@@ -373,12 +376,12 @@
                             <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
                         </div>
                         <p class="text-xs text-gray-600 leading-relaxed">
-                            "Llamamos para hacer el vaciado completo de un piso y una limpieza profunda antes de alquilarlo. En un solo día dejaron todo despejado e impecable. Excelente trabajo."
+                            "Llamamos para hacer el vaciamiento completo de un piso y una limpieza profunda antes de alquilarlo. En un solo día dejaron todo despejado e impecable. Excelente trabajo."
                         </p>
                     </div>
                     <div class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-1.5 text-[11px] text-emerald-600 font-semibold">
                         <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i>
-                        <span>Vaciado y Limpieza de Piso</span>
+                        <span>Vaciamiento y Limpieza de Piso</span>
                     </div>
                 </div>
 
@@ -525,7 +528,7 @@
                 <div>
                     <h3 class="text-xl font-black tracking-wider text-white mb-2">REFORMAS NAZARET</h3>
                     <p class="text-xs text-gray-400 leading-relaxed mb-4">
-                        Especialistas en fontanería 24h, limpieza de pisos, vaciado de inmuebles, pintura y reformas integrales en Madrid. Trato directo sin intermediarios.
+                        Especialistas en fontanería 24h, reformas integrales, limpieza de pisos, vaciamiento de inmuebles y pintura en Madrid. Trato directo sin intermediarios.
                     </p>
                     <div class="flex items-center gap-2 text-xs text-emerald-400 font-semibold">
                         <i data-lucide="shield" class="w-4 h-4"></i>
@@ -559,9 +562,9 @@
                     <h4 class="text-sm font-bold text-brand-accent uppercase tracking-wider mb-3">Servicios</h4>
                     <ul class="space-y-1.5 text-xs text-gray-300">
                         <li>• Fontanería 24 Horas y Desatascos</li>
-                        <li>• Limpieza Profunda de Pisos</li>
-                        <li>• Vaciado de Pisos y Muebles</li>
                         <li>• Reformas Integrales y Alicatados</li>
+                        <li>• Limpieza Profunda de Pisos</li>
+                        <li>• Vaciamiento de Pisos y Muebles</li>
                         <li>• Pintura de Pisos y Locales</li>
                     </ul>
                 </div>
@@ -606,13 +609,13 @@
             </div>
 
             <p class="text-xs text-gray-600 leading-relaxed">
-                Serás redirigido a Google Maps para ver la ficha y dejar tu reseña sobre <strong>Reformas Nazaret</strong>.
+                Serás redirigido a Google Maps para ver la ficha y dejar tu reseña sobre <strong>Fontanero y Reformas Nazaret</strong>.
             </p>
 
             <div class="pt-2 space-y-2">
-                <a href="https://www.google.com/maps/search/?api=1&query=Reformas+Nazaret+Atocha+Madrid" target="_blank" onclick="closeGoogleReview()" class="w-full flex items-center justify-center gap-2 bg-brand-navy hover:bg-brand-dark text-white font-bold py-3 px-4 rounded-xl text-sm transition-all shadow-md">
+                <a href="https://www.google.com/maps/place/Fontanero+y+Reformas+Nazaret/@40.4074949,-3.7499671,12z/data=!4m10!1m2!2m1!1sReformas+Nazaret+Atocha+Madrid!3m6!1s0xd42291be1a14eb1:0xc3b836a94b4bfbf3!8m2!3d40.4089851!4d-3.6970877!15sCh5SZWZvcm1hcyBOYXphcmV0IEF0b2NoYSBNYWRyaWSSAR9nZW5lcmFsX2NvbnRyYWN0b3Jfc3VwcGxpZXJfc3RvcmXgAQA!16s%2Fg%2F11w2_h2s2y?entry=ttu" target="_blank" onclick="closeGoogleReview()" class="w-full flex items-center justify-center gap-2 bg-brand-navy hover:bg-brand-dark text-white font-bold py-3 px-4 rounded-xl text-sm transition-all shadow-md">
                     <i data-lucide="external-link" class="w-4 h-4"></i>
-                    <span>Continuar a Google Maps</span>
+                    <span>Escribir reseña en Google Maps</span>
                 </a>
                 <button onclick="closeGoogleReview()" class="w-full py-2 text-xs font-semibold text-gray-500 hover:text-gray-700">
                     Cancelar
@@ -621,9 +624,52 @@
         </div>
     </div>
 
-    <!-- Scripts -->
+    <!-- Data Estructurada Schema.org para SEO Local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Fontanero y Reformas Nazaret",
+      "image": "https://reformasnazaret.es/logo.png",
+      "@id": "https://reformasnazaret.es/#organization",
+      "url": "https://reformasnazaret.es",
+      "telephone": "+34643390236",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle del Dr. Fourquet",
+        "addressLocality": "Madrid",
+        "postalCode": "28012",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.4089851,
+        "longitude": -3.6970877
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Atocha, Madrid" },
+        { "@type": "City", "name": "Embajadores, Madrid" },
+        { "@type": "City", "name": "Madrid Centro" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    }
+    </script>
+
+    <!-- Scripts de Interacción -->
     <script>
-        lucide.createIcons();
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.lucide) {
+                lucide.createIcons();
+            }
+        });
 
         function handleFormSubmit(e) {
             e.preventDefault();
