@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reformas Nazaret | Fontanería, Limpieza, Vaciado y Reformas en Madrid 24h</title>
+    <meta name="description" content="Servicios profesionales de Fontanería, Limpieza de Pisos, Vaciado de Inmuebles, Albañilería, Pintura y Reformas Integrales en Atocha, Embajadores y todo Madrid. Atención 24 Horas.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0B192C',
+                            dark: '#1E3E62',
+                            blue: '#005B94',
+                            accent: '#008DDA',
+                            light: '#E1F5FE',
+                            gold: '#FFB800'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        .bg-pattern {
+            background-color: #0B192C;
+            background-image: radial-gradient(#1E3E62 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-50 antialiased pb-20 md:pb-0">
+
+    <!-- Top Emergency Bar -->
+    <div class="bg-brand-navy text-white text-xs md:text-sm py-2 px-4 border-b border-brand-dark/50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <span class="relative flex h-2.5 w-2.5">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+                </span>
+                <span class="font-semibold text-green-400">DISPONIBLE AHORA (24H)</span>
+                <span class="hidden sm:inline text-gray-300">| Urgencias en Atocha, Embajadores y todo Madrid</span>
+            </div>
+            <a href="tel:+34643390236" class="font-bold hover:text-brand-accent transition-colors flex items-center gap-1">
+                <i data-lucide="phone-call" class="w-3.5 h-3.5 text-green-400"></i>
+                +34 643 39 02 36
+            </a>
+        </div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo Brand -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="relative flex items-center justify-center w-12 h-12 rounded-full border-2 border-brand-blue bg-white shadow-sm overflow-hidden p-1 group-hover:scale-105 transition-transform">
+                    <svg viewBox="0 0 100 100" class="w-full h-full text-brand-navy">
+                        <circle cx="50" cy="50" r="46" fill="none" stroke="#005B94" stroke-width="3"/>
+                        <path d="M 35 32 Q 50 15 65 32" stroke="#005B94" stroke-width="3" fill="none"/>
+                        <!-- Faucet -->
+                        <path d="M 45 22 L 55 22 M 50 22 L 50 28 L 62 28 L 62 35 L 40 35 L 40 28 Z" fill="#0B192C"/>
+                        <path d="M 42 35 Q 40 45 35 48 L 30 48" stroke="#0B192C" stroke-width="4" fill="none"/>
+                        <path d="M 38 48 A 4 6 0 0 1 38 56 A 4 6 0 0 1 38 48 Z" fill="#008DDA"/>
+                        <!-- House Structure -->
+                        <path d="M 20 62 L 50 38 L 80 62 L 72 62 L 72 82 L 28 82 L 28 62 Z" fill="#0B192C"/>
+                        <path d="M 30 60 L 50 44 L 70 60" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="block text-xl font-extrabold tracking-tight text-brand-navy leading-none">REFORMAS</span>
+                    <span class="block text-lg font-black tracking-widest text-brand-blue leading-none">NAZARET</span>
+                    <span class="block text-[10px] font-semibold text-gray-500 tracking-wider">SOLUCIONES PARA TU HOGAR</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-gray-700">
+                <a href="#servicios" class="hover:text-brand-blue transition-colors">Servicios</a>
+                <a href="#cobertura" class="hover:text-brand-blue transition-colors">Ubicación</a>
+                <a href="#opiniones" class="hover:text-brand-blue transition-colors">Reseñas Google</a>
+                <a href="#contacto" class="hover:text-brand-blue transition-colors">Presupuesto</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="flex items-center gap-2">
+                <a href="https://wa.me/34643390236?text=Hola,%20necesito%20un%20presupuesto%20de%20reformas/limpieza/vaciado" target="_blank" class="hidden sm:inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm px-4 py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="tel:+34643390236" class="inline-flex items-center gap-2 bg-brand-blue hover:bg-brand-dark text-white font-bold text-sm px-4 py-2.5 rounded-xl transition-all shadow-md hover:shadow-lg">
+                    <i data-lucide="phone" class="w-4 h-4"></i>
+                    <span>Llamar</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-pattern text-white py-12 lg:py-20 px-4 overflow-hidden">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-12 gap-8 items-center relative z-10">
+            <div class="md:col-span-7 space-y-6 text-center md:text-left">
+                <!-- Badge -->
+                <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-3 py-1 text-xs font-medium text-brand-light backdrop-blur-md">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-brand-accent"></i>
+                    <span>Base en Atocha y Embajadores | Todo Madrid</span>
+                </div>
+
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight tracking-tight">
+                    Fontanería, Limpieza, Vaciado y Reformas <span class="text-brand-accent">en Madrid</span>
+                </h1>
+
+                <p class="text-gray-300 text-base sm:text-lg max-w-xl mx-auto md:mx-0">
+                    Atención rápida 24h. Servicios integrales de fontanería, vaciado de inmuebles, limpieza profunda de pisos, albañilería, pintura y reformas.
+                </p>
+
+                <!-- Value Props -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-left">
+                    <div class="bg-white/5 border border-white/10 p-3 rounded-xl backdrop-blur-sm">
+                        <i data-lucide="clock-24" class="w-6 h-6 text-brand-accent mb-1"></i>
+                        <p class="font-bold text-sm text-white">Servicio 24/7</p>
+                        <p class="text-xs text-gray-400">Atención rápida en Madrid</p>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-3 rounded-xl backdrop-blur-sm">
+                        <i data-lucide="file-text" class="w-6 h-6 text-brand-accent mb-1"></i>
+                        <p class="font-bold text-sm text-white">Sin Compromiso</p>
+                        <p class="text-xs text-gray-400">Presupuesto a medida</p>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-3 rounded-xl backdrop-blur-sm col-span-2 sm:col-span-1">
+                        <i data-lucide="shield-check" class="w-6 h-6 text-brand-accent mb-1"></i>
+                        <p class="font-bold text-sm text-white">Garantía Total</p>
+                        <p class="text-xs text-gray-400">Trato directo profesional</p>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-3 pt-4">
+                    <a href="tel:+34643390236" class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-3 bg-brand-accent hover:bg-blue-600 text-white font-extrabold text-base px-6 py-3.5 rounded-xl transition-all shadow-lg shadow-brand-accent/30 hover:scale-[1.02]">
+                        <i data-lucide="phone-call" class="w-5 h-5"></i>
+                        <span>Llamar Ahora: 643 39 02 36</span>
+                    </a>
+                    <a href="https://wa.me/34643390236?text=Hola!%20Necesito%20presupuesto%20para..." target="_blank" class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-base px-6 py-3.5 rounded-xl transition-all shadow-lg shadow-emerald-600/30 hover:scale-[1.02]">
+                        <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        <span>Consultar por WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Form Card -->
+            <div class="md:col-span-5">
+                <div class="glass-card text-gray-900 p-6 rounded-2xl shadow-2xl border border-white/20">
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="text-lg font-bold text-brand-navy flex items-center gap-2">
+                            <i data-lucide="send" class="w-5 h-5 text-brand-blue"></i>
+                            Solicitar Presupuesto
+                        </h2>
+                        <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">Respuesta Inmediata</span>
+                    </div>
+
+                    <form id="quick-form" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Tu Nombre</label>
+                            <input type="text" id="form-name" required placeholder="Ej: María García" class="w-full px-3.5 py-2.5 text-sm bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:outline-none">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Tipo de Servicio</label>
+                            <select id="form-service" required class="w-full px-3.5 py-2.5 text-sm bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:outline-none">
+                                <option value="Fontanería / Fuga / Urgencia">Fontanería (Fugas, Desatascos, Termos)</option>
+                                <option value="Limpieza de Pisos e Inmuebles">Limpieza de Pisos (Fin de obra, alquiler)</option>
+                                <option value="Vaciado de Pisos y Locales">Vaciado de Pisos y Retirada de Muebles</option>
+                                <option value="Reforma Integral o Parcial">Reformas (Baños, Cocinas, Pisos)</option>
+                                <option value="Albañilería y Alicatado">Albañilería y Alicatado</option>
+                                <option value="Pintura en General">Pintura de Viviendas y Locales</option>
+                                <option value="Otro Servicio">Otro trabajo de hogar</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Ubicación (Barrio / Municipio)</label>
+                            <input type="text" id="form-location" required placeholder="Ej: Atocha, Embajadores, Carabanchel..." class="w-full px-3.5 py-2.5 text-sm bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:outline-none">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1">Detalle del trabajo o consulta</label>
+                            <textarea id="form-details" rows="2" placeholder="Describe brevemente lo que necesitas..." class="w-full px-3.5 py-2.5 text-sm bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-blue focus:outline-none"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl shadow-md transition-all flex items-center justify-center gap-2">
+                            <i data-lucide="message-square" class="w-4 h-4"></i>
+                            <span>Enviar por WhatsApp directo</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades Section -->
+    <section id="servicios" class="py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold text-brand-blue tracking-widest uppercase bg-brand-light px-3 py-1 rounded-full">Nuestros Servicios</span>
+                <h2 class="text-3xl font-extrabold text-brand-navy mt-2">Soluciones Integrales para tu Inmueble</h2>
+                <p class="text-gray-600 text-sm mt-2">Atendemos particulares, viviendas de alquiler, locales y comunidades en toda la Comunidad de Madrid.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- 1. FONTANERÍA -->
+                <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="droplet" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-navy mb-2">Fontanería 24H</h3>
+                    <ul class="text-xs text-gray-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Desatascos rápidos de tuberías y bajantes</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Reparación urgente de fugas y humedades</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Instalación de termos, cisternas y grifos</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Cambio de bañera por plato de ducha</li>
+                    </ul>
+                </div>
+
+                <!-- 2. LIMPIEZA DE PISOS -->
+                <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="sparkles" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-navy mb-2">Limpieza de Pisos</h3>
+                    <ul class="text-xs text-gray-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Limpieza profunda fin de obra</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Adecuación de inmuebles para alquiler o venta</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Limpieza de cocinas, baños y cristaleras</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Desinfección y puesta a punto integral</li>
+                    </ul>
+                </div>
+
+                <!-- 3. VACIADO DE PISOS -->
+                <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="trash-2" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-navy mb-2">Vaciado de Pisos y Locales</h3>
+                    <ul class="text-xs text-gray-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Retirada de muebles, enseres y trastos viejos</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Vaciado completo de pisos, trastos y locales</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Retirada de escombros de reformas</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Traslado a punto limpio autorizado</li>
+                    </ul>
+                </div>
+
+                <!-- 4. REFORMAS INTEGRALES -->
+                <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="home" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-navy mb-2">Reformas Integrales</h3>
+                    <ul class="text-xs text-gray-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Reforma completa de baños y cocinas</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Rehabilitación de viviendas y locales</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Coordinación directa sin intermediarios</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Presupuesto detallado cerrado</li>
+                    </ul>
+                </div>
+
+                <!-- 5. ALBAÑILERÍA -->
+                <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="brick-wall" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-navy mb-2">Albañilería y Alicatado</h3>
+                    <ul class="text-xs text-gray-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Alicatados de azulejos y gres</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Levantamiento de tabiques y rozas</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Arreglos de grietas y enlucidos</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Soleras y nivelación de suelos</li>
+                    </ul>
+                </div>
+
+                <!-- 6. PINTURA -->
+                <div class="border border-gray-200 rounded-2xl p-6 hover:border-brand-blue hover:shadow-xl transition-all group bg-white">
+                    <div class="w-12 h-12 rounded-xl bg-brand-light flex items-center justify-center text-brand-blue mb-4 group-hover:scale-110 transition-transform">
+                        <i data-lucide="paint-roller" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-navy mb-2">Pintura en General</h3>
+                    <ul class="text-xs text-gray-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Pintado de pisos, locales y comunidades</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Quitar gotelé y alisado de paredes</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Tratamiento de manchas de humedad</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Pintura plástica de alta calidad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reseñas / Opiniones de Google Section -->
+    <section id="opiniones" class="py-16 px-4 bg-gray-50 border-t border-b border-gray-200">
+        <div class="max-w-6xl mx-auto">
+            <!-- Header Reseñas -->
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
+                <div>
+                    <div class="flex items-center gap-2 mb-2">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24">
+                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                        </svg>
+                        <span class="text-sm font-bold text-gray-700 tracking-wider">RESEÑAS DE GOOGLE</span>
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-navy">Opiniones de nuestros clientes</h2>
+                </div>
+
+                <div class="flex flex-wrap items-center gap-4 bg-white p-4 rounded-2xl border border-gray-200 shadow-sm">
+                    <div class="flex items-center gap-3">
+                        <span class="text-3xl font-black text-gray-900">5.0</span>
+                        <div>
+                            <div class="flex text-amber-400">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                            <span class="text-xs text-gray-500">Reseñas verificadas</span>
+                        </div>
+                    </div>
+                    <div class="h-8 w-px bg-gray-200 hidden sm:block"></div>
+                    <button onclick="openGoogleReview()" class="inline-flex items-center gap-2 bg-brand-navy hover:bg-brand-dark text-white text-xs font-bold px-4 py-2.5 rounded-xl transition-all shadow-sm">
+                        <svg class="w-4 h-4" viewBox="0 0 24 24">
+                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                        </svg>
+                        <span>Dejar una reseña en Google</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Review Cards Grid -->
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Review 1 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-blue-100 text-brand-blue font-bold flex items-center justify-center text-sm">
+                                    AM
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-gray-900">Antonio Moreno</h3>
+                                    <p class="text-[11px] text-gray-500">Atocha, Madrid</p>
+                                </div>
+                            </div>
+                            <span class="text-xs text-gray-400">Hace 1 semana</span>
+                        </div>
+                        <div class="flex text-amber-400 mb-2">
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                        </div>
+                        <p class="text-xs text-gray-600 leading-relaxed">
+                            "Llamamos para hacer el vaciado completo de un piso y una limpieza profunda antes de alquilarlo. En un solo día dejaron todo despejado e impecable. Excelente trabajo."
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-1.5 text-[11px] text-emerald-600 font-semibold">
+                        <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i>
+                        <span>Vaciado y Limpieza de Piso</span>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-purple-100 text-purple-700 font-bold flex items-center justify-center text-sm">
+                                    CL
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-gray-900">Carmen López</h3>
+                                    <p class="text-[11px] text-gray-500">Embajadores, Madrid</p>
+                                </div>
+                            </div>
+                            <span class="text-xs text-gray-400">Hace 3 semanas</span>
+                        </div>
+                        <div class="flex text-amber-400 mb-2">
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                        </div>
+                        <p class="text-xs text-gray-600 leading-relaxed">
+                            "Hicieron la reforma de nuestra cocina (alicatado y pintura). Cumplieron los plazos al pie de la letra y dejaron todo limpio al terminar. Muy profesionales."
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-1.5 text-[11px] text-emerald-600 font-semibold">
+                        <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i>
+                        <span>Reforma de Cocina y Alicatado</span>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 font-bold flex items-center justify-center text-sm">
+                                    JR
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-sm text-gray-900">Javier Ruiz</h3>
+                                    <p class="text-[11px] text-gray-500">Retiro, Madrid</p>
+                                </div>
+                            </div>
+                            <span class="text-xs text-gray-400">Hace 1 mes</span>
+                        </div>
+                        <div class="flex text-amber-400 mb-2">
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
+                        </div>
+                        <p class="text-xs text-gray-600 leading-relaxed">
+                            "Nos solucionaron una fuga de fontanería de urgencia de noche. Rápidos, amables y con un precio súper justo. Los recomiendo total."
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-1.5 text-[11px] text-emerald-600 font-semibold">
+                        <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i>
+                        <span>Fontanería de Urgencia 24h</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa Real & Ubicación Section -->
+    <section id="cobertura" class="py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-5 space-y-6">
+                    <div>
+                        <span class="text-xs font-bold text-brand-blue tracking-widest uppercase bg-brand-light px-3 py-1 rounded-full">Zona de Atención</span>
+                        <h2 class="text-3xl font-extrabold text-brand-navy mt-2">Ubicación y Cobertura Directa</h2>
+                        <p class="text-gray-600 text-sm mt-2">
+                            Ubicados en el eje <strong class="text-gray-900">Atocha - Embajadores</strong>, ofreciendo servicio rápido en Madrid Centro y todos los distritos.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl border border-gray-100">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-brand-blue mt-0.5"></i>
+                            <div>
+                                <p class="font-bold text-gray-900">Base Principal</p>
+                                <p class="text-xs text-gray-600">Atocha / Embajadores, Madrid Centro</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl border border-gray-100">
+                            <i data-lucide="clock" class="w-5 h-5 text-emerald-600 mt-0.5"></i>
+                            <div>
+                                <p class="font-bold text-gray-900">Horario de Atención</p>
+                                <p class="text-xs text-gray-600">Servicio Continuo 24 Horas / 365 Días</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-3 bg-gray-50 rounded-xl border border-gray-100">
+                            <i data-lucide="navigation" class="w-5 h-5 text-brand-accent mt-0.5"></i>
+                            <div>
+                                <p class="font-bold text-gray-900">Zonas de Cobertura</p>
+                                <p class="text-xs text-gray-600">Atocha, Embajadores, Arganzuela, Lavapiés, Retiro, Salamanca, Chamartín, Carabanchel y toda la Comunidad de Madrid.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-2">
+                        <a href="https://maps.google.com/?q=Atocha+Embajadores+Madrid" target="_blank" class="inline-flex items-center gap-2 bg-brand-navy hover:bg-brand-dark text-white font-bold text-sm px-5 py-3 rounded-xl transition-all shadow-md">
+                            <i data-lucide="external-link" class="w-4 h-4"></i>
+                            <span>Abrir Mapa en Google Maps</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:col-span-7">
+                    <div class="rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-gray-100 relative h-[380px] sm:h-[450px]">
+                        <iframe 
+                            title="Mapa de localización Reformas Nazaret Atocha Embajadores Madrid"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12152.023249118556!2d-3.7025816!3d40.4070265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0d8e874983637e1%3A0x6a0c5b57f0000000!2sAtocha%2C%20Madrid!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <div class="absolute bottom-4 left-4 bg-white/95 backdrop-blur-md px-4 py-2 rounded-xl shadow-lg border border-gray-200 flex items-center gap-2 text-xs font-bold text-brand-navy">
+                            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            <span>Atendiendo avisos en directo en Madrid</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Band -->
+    <footer id="contacto" class="bg-brand-navy text-white pt-12 pb-24 md:pb-12 px-4 border-t border-brand-dark">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 pb-8 border-b border-white/10">
+                <div>
+                    <h3 class="text-xl font-black tracking-wider text-white mb-2">REFORMAS NAZARET</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed mb-4">
+                        Especialistas en fontanería 24h, limpieza de pisos, vaciado de inmuebles, pintura y reformas integrales en Madrid. Trato directo sin intermediarios.
+                    </p>
+                    <div class="flex items-center gap-2 text-xs text-emerald-400 font-semibold">
+                        <i data-lucide="shield" class="w-4 h-4"></i>
+                        <span>Presupuesto transparente sin compromiso</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold text-brand-accent uppercase tracking-wider mb-3">Contacto Directo</h4>
+                    <ul class="space-y-2.5 text-xs text-gray-300">
+                        <li>
+                            <a href="tel:+34643390236" class="hover:text-white flex items-center gap-2">
+                                <i data-lucide="phone" class="w-4 h-4 text-emerald-400"></i>
+                                <span class="font-bold text-white">+34 643 39 02 36</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/34643390236" target="_blank" class="hover:text-white flex items-center gap-2">
+                                <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400"></i>
+                                <span>WhatsApp Inmediato 24H</span>
+                            </a>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-brand-accent"></i>
+                            <span>Atocha - Embajadores, Madrid</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold text-brand-accent uppercase tracking-wider mb-3">Servicios</h4>
+                    <ul class="space-y-1.5 text-xs text-gray-300">
+                        <li>• Fontanería 24 Horas y Desatascos</li>
+                        <li>• Limpieza Profunda de Pisos</li>
+                        <li>• Vaciado de Pisos, Muebles y Locales</li>
+                        <li>• Reformas Integrales y Alicatados</li>
+                        <li>• Pintura de Pisos y Locales</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-6 text-center text-xs text-gray-500">
+                <p>© 2026 Reformas Nazaret. Todos los derechos reservados. Madrid, España.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Floating Mobile Bottom Bar -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-gray-200 p-2.5 md:hidden shadow-2xl">
+        <div class="grid grid-cols-2 gap-2">
+            <a href="https://wa.me/34643390236?text=Hola,%20necesito%20un%20presupuesto" target="_blank" class="flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-3 rounded-xl text-sm transition-all shadow-md">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                <span>WhatsApp 24h</span>
+            </a>
+            <a href="tel:+34643390236" class="flex items-center justify-center gap-2 bg-brand-blue hover:bg-brand-dark text-white font-bold py-3 px-3 rounded-xl text-sm transition-all shadow-md">
+                <i data-lucide="phone-call" class="w-4 h-4"></i>
+                <span>Llamar Ahora</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Modal para Reseña en Google -->
+    <div id="google-review-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-white rounded-2xl p-6 max-w-md w-full shadow-2xl border border-gray-100 space-y-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                    <svg class="w-6 h-6" viewBox="0 0 24 24">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                    </svg>
+                    <h3 class="font-bold text-gray-900 text-lg">Escribir Reseña en Google</h3>
+                </div>
+                <button onclick="closeGoogleReview()" class="text-gray-400 hover:text-gray-600 p-1">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+
+            <p class="text-xs text-gray-600 leading-relaxed">
+                Serás redirigido a Google para iniciar sesión con tu cuenta y dejar tu reseña para <strong>Reformas Nazaret</strong>.
+            </p>
+
+            <div class="pt-2 space-y-2">
+                <a href="https://search.google.com/local/writereview?placeid=ChIJ038i29ooQg0R00000000000" target="_blank" onclick="closeGoogleReview()" class="w-full flex items-center justify-center gap-2 bg-brand-navy hover:bg-brand-dark text-white font-bold py-3 px-4 rounded-xl text-sm transition-all shadow-md">
+                    <i data-lucide="external-link" class="w-4 h-4"></i>
+                    <span>Continuar a Google Maps</span>
+                </a>
+                <button onclick="closeGoogleReview()" class="w-full py-2 text-xs font-semibold text-gray-500 hover:text-gray-700">
+                    Cancelar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        lucide.createIcons();
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('form-name').value;
+            const service = document.getElementById('form-service').value;
+            const location = document.getElementById('form-location').value;
+            const details = document.getElementById('form-details').value;
+
+            const phone = "34643390236";
+            
+            let message = `Hola Reformas Nazaret! Mi nombre es *${name}*.\n\n`;
+            message += `*Servicio solicitado:* ${service}\n`;
+            message += `*Ubicación:* ${location}\n`;
+            if (details) {
+                message += `*Detalles:* ${details}\n`;
+            }
+            message += `\nSolicito presupuesto sin compromiso. Gracias!`;
+
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/${phone}?text=${encodedMessage}`, '_blank');
+        }
+
+        function openGoogleReview() {
+            document.getElementById('google-review-modal').classList.remove('hidden');
+            document.getElementById('google-review-modal').classList.add('flex');
+        }
+
+        function closeGoogleReview() {
+            document.getElementById('google-review-modal').classList.add('hidden');
+            document.getElementById('google-review-modal').classList.remove('flex');
+        }
+    </script>
+</body>
+</html>
